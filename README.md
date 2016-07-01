@@ -6,14 +6,14 @@ auto-generate python source code header docs
 run `docs -h`
 
 ``` shell
-usage: python source code doc generate tool. [-h] [-u AUTHOR]
-                                             [-m [DESCRIPTION [DESCRIPTION ...]]]
+usage: python source code doc generate tool. [-h] author [docs [docs ...]]
+
+positional arguments:
+  author      File create author
+  docs        module function description
 
 optional arguments:
-    -h, --help            show this help message and exit
-    -u AUTHOR, --author AUTHOR File create author
-    -m [DESCRIPTION [DESCRIPTION ...]], --description [DESCRIPTION [DESCRIPTION ...]] module function description
-
+  -h, --help  show this help message and exit
 ```
 
 # install
