@@ -5,7 +5,7 @@ auto-generate python source code header docs
 
 run `docs -h`
 
-``` python
+``` shell
 usage: python source code doc generate tool. [-h] [-u AUTHOR]
                                              [-m [DESCRIPTION [DESCRIPTION ...]]]
 
