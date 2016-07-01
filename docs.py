@@ -50,9 +50,9 @@ def docs(author, description, date=None):
 
 def command_line():
     parser = argparse.ArgumentParser("python source code doc generate tool.")
-    parser.add_argument('-u', '--author', dest='author',
+    parser.add_argument('author',
                         help='File create author')
-    parser.add_argument('-m', '--description', dest='description',
+    parser.add_argument('description', metavar='docs',
                         type=str, nargs='*', help='module function description')
     args = vars(parser.parse_args())
     print docs(**args)
