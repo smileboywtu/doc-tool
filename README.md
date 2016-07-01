@@ -16,6 +16,8 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
+run `python docs.py 'yourname' description > newfile.py` to generate new doc ready file.
+
 # install
 
 1. clone this repo
